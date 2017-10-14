@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/dm-challenge/.idea/dm-challenge.iml" filepath="$USER_HOME$/dm-challenge/.idea/dm-challenge.iml" />
+      <module fileurl="file://$USER_HOME$/inf659-inception/.idea/inf659-inception.iml" filepath="$USER_HOME$/inf659-inception/.idea/inf659-inception.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/virat-preprocess.iml" filepath="$PROJECT_DIR$/.idea/virat-preprocess.iml" />
     </modules>

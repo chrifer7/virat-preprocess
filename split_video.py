@@ -15,7 +15,10 @@ i = 0
 for line in vfile:
     vdata = line.split(' ')
     print ('Event: ', vdata[1])
-    call(["ffmpeg", "-i", video_path+video_name+'.mp4', video_path+video_name+'_frames'+'-%04d.jpg'])
+    video_path_frames = video_path+video_name+'/'+video_name
+    if not os.path.exists(video_path_frames):
+        os.makedirs(video_path_frames)
+    call(["ffmpeg", "-i", video_path+video_name+'.mp4', video_path_framesgit +'_frames'+'-%04d.jpg'])
     i = i + 1
 
 

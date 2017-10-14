@@ -4,5 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="inf659-inception" />
+    <orderEntry type="module" module-name="dm-challenge" />
   </component>
 </module>
