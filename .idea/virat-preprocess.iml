@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="inf659-inception" />
     <orderEntry type="module" module-name="dm-challenge" />
+    <orderEntry type="module" module-name="five-video-classification-methods" />
   </component>
 </module>
