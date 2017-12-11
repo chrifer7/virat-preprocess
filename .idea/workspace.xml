@@ -4,15 +4,15 @@
     <list default="true" id="c70c8950-fcc4-45f4-8245-0c2adb269951" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="DELETED" beforePath="$USER_HOME$/video-violence-detection/lstm_std_fit.pkl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/transfer_learning/classifier.ipynb" afterPath="$USER_HOME$/inf659-inception/transfer_learning/classifier.ipynb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/transfer_learning/classifier_acc_graph.ipynb" afterPath="$USER_HOME$/inf659-inception/transfer_learning/classifier_acc_graph.ipynb" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/tutorials/MNIST-Keras-Mejorado.ipynb" afterPath="$USER_HOME$/inf659-inception/tutorials/MNIST-Keras-Mejorado.ipynb" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/video-violence-detection/models.py" afterPath="$USER_HOME$/video-violence-detection/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/virat-preprocess.iml" afterPath="$PROJECT_DIR$/.idea/virat-preprocess.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split_video.py" afterPath="$PROJECT_DIR$/split_video.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/video-violence-detection/models.py" afterPath="$USER_HOME$/video-violence-detection/models.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/tutorials/MNIST-Keras-Mejorado.ipynb" afterPath="$USER_HOME$/inf659-inception/tutorials/MNIST-Keras-Mejorado.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="transfer_finetune.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/dm-challenge/transfer_learning/transfer_finetune.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3680">
+            <state relative-caret-position="3128">
               <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
               <folding>
                 <element signature="e#1396#1406#0" expanded="true" />
@@ -39,10 +39,18 @@
       <file leaf-file-name="split_video.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/split_video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
+            <state relative-caret-position="1275">
               <caret line="83" column="83" lean-forward="false" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1509553387986" expanded="true" signature="763:3118" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="923:3118" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="1379:1889" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="1947:2080" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="2441:3118" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="2946:3094" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="3140:3615" ph="..." />
+                <marker date="1509553387986" expanded="true" signature="3253:3615" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,7 +79,7 @@
       <file leaf-file-name="train_cnn_mod.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/video-violence-detection/train_cnn_mod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
+            <state relative-caret-position="1632">
               <caret line="102" column="56" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="56" />
               <folding />
             </state>
@@ -81,7 +89,7 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/video-violence-detection/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="1071">
               <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="23" />
               <folding>
                 <element signature="e#79#92#0" expanded="true" />
@@ -103,7 +111,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.5/dist-packages/keras/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15500">
+            <state relative-caret-position="13175">
               <caret line="796" column="8" lean-forward="false" selection-start-line="796" selection-start-column="8" selection-end-line="796" selection-end-column="8" />
               <folding />
             </state>
@@ -113,7 +121,7 @@
       <file leaf-file-name="extract_features.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/video-violence-detection/extract_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
+            <state relative-caret-position="850">
               <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding>
                 <element signature="e#502#515#0" expanded="true" />
@@ -337,8 +345,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-14" width="1385" height="915" extended-state="6" />
-    <editor active="true" />
+    <frame x="56" y="-14" width="1385" height="915" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21475054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -647,7 +654,7 @@
     </entry>
     <entry file="file://$USER_HOME$/dm-challenge/transfer_learning/transfer_finetune.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
+        <state relative-caret-position="3128">
           <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
           <folding>
             <element signature="e#1396#1406#0" expanded="true" />
@@ -657,10 +664,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split_video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
+        <state relative-caret-position="1275">
           <caret line="83" column="83" lean-forward="false" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1509553387986" expanded="true" signature="763:3118" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="923:3118" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="1379:1889" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="1947:2080" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="2441:3118" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="2946:3094" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="3140:3615" ph="..." />
+            <marker date="1509553387986" expanded="true" signature="3253:3615" ph="..." />
           </folding>
         </state>
       </provider>
@@ -690,7 +705,7 @@
     </entry>
     <entry file="file://$USER_HOME$/video-violence-detection/train_cnn_mod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
+        <state relative-caret-position="1632">
           <caret line="102" column="56" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="56" />
           <folding />
         </state>
@@ -698,7 +713,7 @@
     </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/keras/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15500">
+        <state relative-caret-position="13175">
           <caret line="796" column="8" lean-forward="false" selection-start-line="796" selection-start-column="8" selection-end-line="796" selection-end-column="8" />
           <folding />
         </state>
@@ -714,7 +729,7 @@
     </entry>
     <entry file="file://$USER_HOME$/video-violence-detection/extract_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
+        <state relative-caret-position="850">
           <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding>
             <element signature="e#502#515#0" expanded="true" />
@@ -724,7 +739,7 @@
     </entry>
     <entry file="file://$USER_HOME$/video-violence-detection/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="1071">
           <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="23" />
           <folding>
             <element signature="e#79#92#0" expanded="true" />
