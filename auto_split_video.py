@@ -82,14 +82,31 @@ def split_and_save(video_arg, annotation_arg):
 
 
 if __name__ == '__main__':
-  if not len(sys.argv) == 3:
-    print('Arguments must match:\npython code/split_video.py <video_path> <annotations_path>')
-    sys.exit(2)
-  else:
-    video_arg = sys.argv[1]
-    annotation_arg = sys.argv[2]
+    if not len(sys.argv) == 3:
+        print('Arguments must match:\npython code/auto_split_video.py <videos_path> <annotations_path>')
+        sys.exit(2)
+    else:
+        video_dir = sys.argv[1]
+        annotation_dir = sys.argv[2]
 
-    split_and_save(video_arg, annotation_arg)
+        files = []
+        for filename in os.listdir(video_dir):
+            filename_arr = filename.split('.')
+            filename_arr = filename_arr[0:len(filename_arr) - 1]
+            #filename_arr = filename_arr.append('mp4')
+            #print(filename_arr)
+            #print(filename)
+            video_arg = filename
+            annotation_arr = [filename_arr[0], 'viratdata','events','txt']
+            #print(annotation_arr)
+            annotation_arg = '.'.join(annotation_arr)
+            
+            video_arg = video_dir+'/'+video_arg
+            annotation_arg = annotation_dir+'/'+annotation_arg
 
-    # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
+            print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
+            
+            split_and_save(video_arg, annotation_arg)
+
+        # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
 
