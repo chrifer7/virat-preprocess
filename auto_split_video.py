@@ -29,17 +29,7 @@ def get_path_and_file(data_arg):
 
   return _path, _file
 
-
-if __name__ == '__main__':
-  if not len(sys.argv) == 3:
-    print('Arguments must match:\npython code/split_video.py <video_path> <annotations_path>')
-    sys.exit(2)
-  else:
-    video_arg = sys.argv[1]
-    annotation_arg = sys.argv[2]
-
-    # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
-
+def split_and_save(video_arg, annotation_arg):
     video_path, video_file = get_path_and_file(video_arg)
     video_file_len = len(video_file.split('.'))
     video_name = video_file.split('.')[video_file_len - 2]
@@ -47,24 +37,25 @@ if __name__ == '__main__':
 
     vfile = open(annotation_arg, 'r')
 
-    #https://askubuntu.com/questions/110264/how-to-find-frames-per-second-of-any-video-file
-    #fps = call(['ffmpeg -i "' + video_arg + '" 2>&1 | sed -n "s/.*, \(.*\) fp.*/\\1/p"'])
+    # https://askubuntu.com/questions/110264/how-to-find-frames-per-second-of-any-video-file
+    # fps = call(['ffmpeg -i "' + video_arg + '" 2>&1 | sed -n "s/.*, \(.*\) fp.*/\\1/p"'])
 
-    #pattern = re.compile(r'(\d{2}.\d{3}) fps')
-    #mplayerOutput = subprocess.Popen(("mplayer", "-identify", "-frames", "0", "o-ao", "null", video_arg),
+    # pattern = re.compile(r'(\d{2}.\d{3}) fps')
+    # mplayerOutput = subprocess.Popen(("mplayer", "-identify", "-frames", "0", "o-ao", "null", video_arg),
     #                 stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0]
-    #fps = pattern.search(mplayerOutput).groups()[0]
+    # fps = pattern.search(mplayerOutput).groups()[0]
 
     fps = -1
-    out = subprocess.check_output(["ffprobe", video_arg, "-v", "0", "-select_streams", "v", "-print_format", "flat", "-show_entries",
-       "stream=r_frame_rate"])
-    #b'streams.stream.0.r_frame_rate="30000/1001"\n'
+    out = subprocess.check_output(
+        ["ffprobe", video_arg, "-v", "0", "-select_streams", "v", "-print_format", "flat", "-show_entries",
+         "stream=r_frame_rate"])
+    # b'streams.stream.0.r_frame_rate="30000/1001"\n'
     rate = str(out).split('=')[1].strip()[1:-4].split('/')
     print ('rate: ', rate)
     if len(rate) == 1:
-      fps = float(rate[0])
+        fps = float(rate[0])
     if len(rate) == 2:
-      fps = float(rate[0]) / float(rate[1])
+        fps = float(rate[0]) / float(rate[1])
 
     print('fps: ', fps)
 
@@ -83,8 +74,22 @@ if __name__ == '__main__':
 
             # print('Video: ', video_arg, ' Frames: ', video_path_frames)
             if not os.path.exists(video_path_frames):
-              os.makedirs(video_path_frames)
+                os.makedirs(video_path_frames)
 
             call(["ffmpeg", "-i", video_arg, '-ss', start_time, '-vframes', vdata[2],
-                video_path_frames + '/' + video_name + '_frames' + '-%06d.jpg'])
+                  video_path_frames + '/' + video_name + '_frames' + '-%06d.jpg'])
             i = i + 1
+
+
+if __name__ == '__main__':
+  if not len(sys.argv) == 3:
+    print('Arguments must match:\npython code/split_video.py <video_path> <annotations_path>')
+    sys.exit(2)
+  else:
+    video_arg = sys.argv[1]
+    annotation_arg = sys.argv[2]
+
+    split_and_save(video_arg, annotation_arg)
+
+    # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
+
