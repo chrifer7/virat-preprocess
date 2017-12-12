@@ -94,7 +94,7 @@ if __name__ == '__main__':
             filename_arr = filename.split('.')
             filename_arr = filename_arr[0:len(filename_arr) - 1]
             #filename_arr = filename_arr.append('mp4')
-            #print(filename_arr)
+            print(filename_arr)
             #print(filename)
             video_arg = filename
             annotation_arr = [filename_arr[0], 'viratdata','events','txt']
