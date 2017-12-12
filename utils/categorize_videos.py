@@ -114,5 +114,5 @@ if __name__ == '__main__':
 
             #pbar_video_dir_names.close()
         pbar_video_dir.close()
-        for i in range(1, (len(array_of_categories) - 1)):
+        for i in range(1, len(array_of_categories)):
             print (array_of_name_categories[i]+': '+str(array_of_categories[i]))
