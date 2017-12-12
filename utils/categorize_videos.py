@@ -47,6 +47,8 @@ import sys
 import os
 import shutil
 
+from tqdm import tqdm
+
 number_of_categories = 0
 array_of_categories = [0] * 13 # Cantidad de tipos eventos (no considero el cero) --por mejorar
 array_of_name_categories = ["",
@@ -71,9 +73,17 @@ if __name__ == '__main__':
     else:
         video_dir = sys.argv[1]
         dest_dir = sys.argv[2]
+
+        pbar_video_dir = tqdm(total=len(os.listdir(video_dir)))
+        pbar_video_dir.set_description("\nMoviendo directorios de: %s\n" % (video_dir))
+
         for dir_name in os.listdir(video_dir):
+            pbar_video_dir.update(1)
             #print (filename)
+            #pbar_video_dir_names = tqdm(total=len(os.listdir(video_dir)))
+            #pbar_video_dir_names.set_description("\nMoviendo carpetas de video de: %s\n" % (dir_name))
             for video_dir_name in os.listdir(os.path.join(video_dir,dir_name)):
+                #pbar_video_dir_names.update(1)
                 #print(video_dir_name)
                 video_cat = video_dir_name.split('-')
                 #print(video_cat[1])
@@ -87,20 +97,22 @@ if __name__ == '__main__':
                 source_path = os.path.join(video_dir, dir_name, video_dir_name)
                 dest_path = os.path.join(dest_video_cat_dir, video_dir_name)
 
-                print('source_path: ', source_path)
-                print('dest_path: ', dest_path)
+                #print('source_path: ', source_path)
+                #print('dest_path: ', dest_path)
 
                 if os.path.exists(dest_path):
                     # si el directorio existe no me dejará mover _todo el directorio, debo hacerlo un archivo a la vez
                     for video_frame in os.listdir(source_path):
                         source_path_file = os.path.join(source_path, video_frame)
                         dest_path_file = os.path.join(dest_path, video_frame)
-                        print('source_path_file: ', source_path_file)
-                        print('dest_path_file: ', dest_path_file)
+                        #print('source_path_file: ', source_path_file)
+                        #print('dest_path_file: ', dest_path_file)
                         shutil.move(source_path_file, dest_path_file)
                 else:
                     # c.c. lo muevo
                     shutil.move(source_path, dest_path)
 
+            #pbar_video_dir_names.close()
+        pbar_video_dir.close()
         for i in range(1, (len(array_of_categories) - 1)):
             print (array_of_name_categories[i]+': '+str(array_of_categories[i]))
