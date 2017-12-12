@@ -106,7 +106,8 @@ if __name__ == '__main__':
 
             print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
             
-            split_and_save(video_arg, annotation_arg)
+            if (os.path.isfile(video_arg) and os.path.isfile(annotation_arg)):
+                split_and_save(video_arg, annotation_arg)
 
         # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
 
