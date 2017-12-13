@@ -42,7 +42,7 @@ Event Type ID (for column 2 above)
 11: Person entering a facility
 12: Person exiting a facility
 """
-
+import random
 import sys
 import os
 import shutil
@@ -107,7 +107,8 @@ if __name__ == '__main__':
             #pbar_video_dir_names.set_description("\nMoviendo carpetas de video de: %s\n" % (dir_name))
 
             #Cantidad de video para distribuir entre las carpetas de train y test
-            n_samples = len(os.listdir(os.path.join(video_dir,cat_id)))
+            video_list_dir = os.listdir(os.path.join(video_dir,cat_id))
+            n_samples = len(video_list_dir)
 
             n_train_samples = int(math.ceil(train_ratio * float(n_samples)))
             n_test_samples = n_samples - n_train_samples
@@ -117,10 +118,12 @@ if __name__ == '__main__':
 
             group_sample = 'train'
             i = 0
-            for video_dir_name in os.listdir(os.path.join(video_dir,cat_id)):
+            random.shuffle(video_list_dir)
+            for video_dir_name in video_list_dir:
                 n_frames = len(os.listdir(os.path.join(video_dir,cat_id,video_dir_name)))
 
                 list_csv.append(','.join([group_sample, array_of_name_categories[int(cat_id)], video_dir_name, str(n_frames), os.path.join(video_dir,cat_id,video_dir_name)]))
+
                 i = i + 1
 
                 if i >= n_train_samples:
