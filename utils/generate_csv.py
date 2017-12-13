@@ -69,8 +69,8 @@ array_of_full_name_categories = ["",
 array_of_name_categories = ["",
                             "LoadingObjectToVehicle",
                             "UnloadingObjectFromVehicle",
-                            "OpeningVehicle/CarTrunk",
-                            "ClosingVehicle/CarTrunk",
+                            "OpeningVehicleCarTrunk",
+                            "ClosingVehicleCarTrunk",
                             "GettingIntoVehicle",
                             "GettingOutOfVehicle",
                             "Gesturing",
@@ -122,7 +122,10 @@ if __name__ == '__main__':
             for video_dir_name in video_list_dir:
                 n_frames = len(os.listdir(os.path.join(video_dir,cat_id,video_dir_name)))
 
-                list_csv.append(','.join([group_sample, array_of_name_categories[int(cat_id)], video_dir_name, str(n_frames), os.path.join(video_dir,cat_id,video_dir_name)]))
+                #list_csv.append(','.join([group_sample, array_of_name_categories[int(cat_id)], video_dir_name, str(n_frames), os.path.join(video_dir,cat_id,video_dir_name)]))
+                list_csv.append(','.join(
+                    [group_sample, cat_id, video_dir_name, str(n_frames),
+                     os.path.join(video_dir, cat_id, video_dir_name)]))
 
                 i = i + 1
 
