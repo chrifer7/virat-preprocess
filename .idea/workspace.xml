@@ -4,93 +4,10 @@
     <list default="true" id="c70c8950-fcc4-45f4-8245-0c2adb269951" name="Default" comment="">
       <change type="DELETED" beforePath="$USER_HOME$/inf659-inception/transfer_learning/data/DM Images/data_inputs.txt" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/inf659-inception/transfer_learning/data/DM Images/data_labels.txt" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/video-violence-detection/data/.~lock.data_file.csv#" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/1/0-1-VIRAT_S_000001/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/1/0-1-VIRAT_S_000001/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/1/0-1-VIRAT_S_000001/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/1/0-1-VIRAT_S_000001/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/1-2-VIRAT_S_000201_01_000384_000589/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/1-2-VIRAT_S_000201_01_000384_000589/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/1-2-VIRAT_S_000201_01_000384_000589/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/1-2-VIRAT_S_000201_01_000384_000589/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/1-2-VIRAT_S_000201_01_000384_000589/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/2-2-VIRAT_S_000201_01_000384_000589/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/2-2-VIRAT_S_000201_01_000384_000589/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/2-2-VIRAT_S_000201_01_000384_000589/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/2-2-VIRAT_S_000201_01_000384_000589/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/2-2-VIRAT_S_000201_01_000384_000589/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/2-2-VIRAT_S_000201_01_000384_000589/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/21-2-VIRAT_S_000101/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/21-2-VIRAT_S_000101/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/21-2-VIRAT_S_000101/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/21-2-VIRAT_S_000101/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/21-2-VIRAT_S_000101/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/3-2-VIRAT_S_000001/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/3-2-VIRAT_S_000001/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/3-2-VIRAT_S_000001/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/3-2-VIRAT_S_000001/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/3-2-VIRAT_S_000001/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/2/3-2-VIRAT_S_000001/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/3/42-3-VIRAT_S_000101/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/3/42-3-VIRAT_S_000101/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/3/42-3-VIRAT_S_000101/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/3/42-3-VIRAT_S_000101/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/3/42-3-VIRAT_S_000101/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document (6th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/4/44-4-VIRAT_S_000101/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document (6th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/1-5-VIRAT_S_000001/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/24-5-VIRAT_S_000101/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/24-5-VIRAT_S_000101/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/24-5-VIRAT_S_000101/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/24-5-VIRAT_S_000101/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/24-5-VIRAT_S_000101/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/5/24-5-VIRAT_S_000101/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document (6th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000200_03_000657_000899/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000201_01_000384_000589/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000201_01_000384_000589/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000201_01_000384_000589/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000201_01_000384_000589/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000201_01_000384_000589/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/0-6-VIRAT_S_000201_01_000384_000589/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/18-6-VIRAT_S_000101/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/18-6-VIRAT_S_000101/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/18-6-VIRAT_S_000101/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/18-6-VIRAT_S_000101/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/18-6-VIRAT_S_000101/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document (5th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document (6th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/6/4-6-VIRAT_S_000001/Untitled Document (copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/7/15-7-VIRAT_S_000101/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/7/15-7-VIRAT_S_000101/Untitled Document (3rd copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/7/15-7-VIRAT_S_000101/Untitled Document (4th copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/7/15-7-VIRAT_S_000101/Untitled Document (another copy)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_categories/7/15-7-VIRAT_S_000101/Untitled Document (copy)" afterPath="" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/transfer_learning/08_Transfer_Learning.ipynb" afterPath="$USER_HOME$/inf659-inception/transfer_learning/08_Transfer_Learning.ipynb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/transfer_learning/DM_Transfer_FineTune_Inception.ipynb" afterPath="$USER_HOME$/inf659-inception/transfer_learning/DM_Transfer_FineTune_Inception.ipynb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/inf659-inception/transfer_learning/dm-challenge-copy.ipynb" afterPath="$USER_HOME$/inf659-inception/transfer_learning/dm-challenge-copy.ipynb" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/video-violence-detection/data_virat.py" afterPath="$USER_HOME$/video-violence-detection/data_virat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/generate_csv.py" afterPath="$PROJECT_DIR$/utils/generate_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,120 +18,122 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_cnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/train_cnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_cnn_mod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/train_cnn_mod.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="102" column="56" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="23" />
-              <folding>
-                <element signature="e#79#92#0" expanded="true" />
-                <marker date="1513133290509" expanded="true" signature="4112:5165" ph="..." />
-                <marker date="1513133290509" expanded="true" signature="4541:4635" ph="..." />
-                <marker date="1513133290509" expanded="true" signature="4645:4703" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/keras/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13175">
-              <caret line="796" column="8" lean-forward="false" selection-start-line="796" selection-start-column="8" selection-end-line="796" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract_features.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/extract_features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding>
-                <element signature="e#502#515#0" expanded="true" />
-                <marker date="1513133290501" expanded="true" signature="829:874" ph="..." />
-                <marker date="1513133290501" expanded="true" signature="999:1737" ph="..." />
-                <marker date="1513133290501" expanded="true" signature="1210:1250" ph="..." />
-                <marker date="1513133290501" expanded="true" signature="1545:1619" ph="..." />
-                <marker date="1513133290501" expanded="true" signature="1625:1686" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_virat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/data_virat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="134" lean-forward="false" selection-start-line="24" selection-start-column="134" selection-end-line="24" selection-end-column="134" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generate_csv.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/generate_csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extractor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/video-violence-detection/extractor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="918">
+                  <caret line="62" column="57" lean-forward="false" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data_file.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/data/data_file.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="extract_features.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/extract_features.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#502#515#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data_virat.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/data_virat.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="train_virat.py" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/video-violence-detection/train_virat.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#79#92#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="generate_csv.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/utils/generate_csv.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2040">
+                  <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="extractor.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/extractor.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="697">
+                  <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/video-violence-detection/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#79#92#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/video-violence-detection/data.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,10 +154,16 @@
       <find>tb</find>
       <find>loss</find>
       <find>checkpointer</find>
+      <find>array_of_name_categories</find>
+      <find>metrics</find>
+      <find>virat</find>
     </findStrings>
+    <replaceStrings>
+      <replace>ucf101</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/video-violence-detection" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -252,19 +177,21 @@
         <option value="$USER_HOME$/dm-challenge/transfer_learning/transfer_finetune.py" />
         <option value="$PROJECT_DIR$/split_video.py" />
         <option value="$USER_HOME$/video-violence-detection/extract_features.py" />
-        <option value="$USER_HOME$/video-violence-detection/train.py" />
-        <option value="$USER_HOME$/video-violence-detection/models.py" />
-        <option value="$USER_HOME$/video-violence-detection/data.py" />
-        <option value="$USER_HOME$/video-violence-detection/data_virat.py" />
         <option value="$PROJECT_DIR$/utils/generate_csv.py" />
+        <option value="$USER_HOME$/video-violence-detection/data_virat.py" />
+        <option value="$USER_HOME$/video-violence-detection/.gitignore" />
+        <option value="$USER_HOME$/video-violence-detection/data.py" />
+        <option value="$USER_HOME$/video-violence-detection/models.py" />
+        <option value="$USER_HOME$/video-violence-detection/train_virat.py" />
+        <option value="$USER_HOME$/video-violence-detection/train.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="-4" />
-    <option name="width" value="1383" />
-    <option name="height" value="904" />
+    <option name="x" value="56" />
+    <option name="y" value="-14" />
+    <option name="width" value="1385" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,8 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,50 +221,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virat-preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video-violence-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virat-preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virat-preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virat-preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="virat-preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/video-violence-detection" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/video-violence-detection" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -436,39 +330,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1383" height="904" extended-state="6" />
-    <editor active="true" />
+    <frame x="56" y="-14" width="1385" height="915" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21475054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2207308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21475054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -481,27 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/inf659-inception/inception/flowers_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/inf659-inception/inception/flowers_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/inf659-inception/inception/data/build_image_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8480">
-          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/inf659-inception/inception/flowers_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -712,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3128">
           <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
-          <folding>
-            <element signature="e#1396#1406#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,17 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="83" column="83" lean-forward="false" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1509553387986" expanded="true" signature="763:3118" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="923:3118" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="1379:1889" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="1947:2080" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="2441:3118" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="2946:3094" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="3140:3615" ph="..." />
-            <marker date="1509553387986" expanded="true" signature="3253:3615" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="102" column="56" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,51 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13175">
           <caret line="796" column="8" lean-forward="false" selection-start-line="796" selection-start-column="8" selection-end-line="796" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/video-violence-detection/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/video-violence-detection/extract_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#502#515#0" expanded="true" />
-            <marker date="1513133290501" expanded="true" signature="829:874" ph="..." />
-            <marker date="1513133290501" expanded="true" signature="999:1737" ph="..." />
-            <marker date="1513133290501" expanded="true" signature="1210:1250" ph="..." />
-            <marker date="1513133290501" expanded="true" signature="1545:1619" ph="..." />
-            <marker date="1513133290501" expanded="true" signature="1625:1686" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/video-violence-detection/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="23" />
-          <folding>
-            <element signature="e#79#92#0" expanded="true" />
-            <marker date="1513133290509" expanded="true" signature="4112:5165" ph="..." />
-            <marker date="1513133290509" expanded="true" signature="4541:4635" ph="..." />
-            <marker date="1513133290509" expanded="true" signature="4645:4703" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/video-violence-detection/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,23 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/video-violence-detection/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/video-violence-detection/data_virat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="134" lean-forward="false" selection-start-line="24" selection-start-column="134" selection-end-line="24" selection-end-column="134" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,17 +629,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/generate_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="2040">
           <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/data/data_file.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/extract_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#502#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="62" column="57" lean-forward="false" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/data_virat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/train_virat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/video-violence-detection/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
