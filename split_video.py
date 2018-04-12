@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 
 def _old_main():
-    vfile = open(annotations_path + video_name + '.viratdata.events.txt', 'r')
+    vfile = open(_annotations_path + video_name + '.viratdata.events.txt', 'r')
 
     i = 0
     for line in vfile:
