@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c70c8950-fcc4-45f4-8245-0c2adb269951" name="Default" comment="" />
+    <list default="true" id="c70c8950-fcc4-45f4-8245-0c2adb269951" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto_split_video_located2.py" afterPath="$PROJECT_DIR$/auto_split_video_located2.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,7 @@
             <entry file="file://$PROJECT_DIR$/split_video_located2.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="840">
-                  <caret line="42" column="68" lean-forward="false" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+                  <caret line="42" column="73" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="73" />
                   <folding>
                     <element signature="e#0#10#0" expanded="true" />
                   </folding>
@@ -155,8 +157,8 @@
           <file leaf-file-name="auto_split_video_located2.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/auto_split_video_located2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="122" column="12" lean-forward="false" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
+                <state relative-caret-position="1368">
+                  <caret line="98" column="67" lean-forward="true" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
                   <folding>
                     <element signature="e#0#10#0" expanded="true" />
                   </folding>
@@ -755,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/split_video_located2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="42" column="68" lean-forward="false" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+          <caret line="42" column="73" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="73" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -764,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto_split_video_located2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="122" column="12" lean-forward="false" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
+        <state relative-caret-position="1368">
+          <caret line="98" column="67" lean-forward="true" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

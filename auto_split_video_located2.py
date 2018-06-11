@@ -71,7 +71,7 @@ def split_and_save(video_arg, annotation_arg, crop_frames = True):
         os.makedirs(video_global_frames)
 
     # Extrae todos los frames del video en una carpeta global para dicho video
-    call(["ffmpeg", "-i", video_arg, video_global_frames + '/' + video_name + '_frame-%03d' + '.jpg'])
+    call(["ffmpeg", "-i", video_arg, video_global_frames + '/' + video_name + '_frame-%d' + '.jpg'])
 
     #pbar = tqdm(total=len(vfile))
 
@@ -120,7 +120,7 @@ def split_and_save(video_arg, annotation_arg, crop_frames = True):
             draw.rectangle(
                 ((int(vdata[6]), int(vdata[7])), (int(vdata[6]) + int(vdata[8]), int(vdata[7]) + int(vdata[9]))),
                 fill=None)
-            
+
             # Grabo el frame con el rectángulo dibujado en la carpeta global del video
             source_img.save(video_global_frames + '/' + video_name + '_frame-' + vdata[5] + '.jpg', "JPEG")
 
