@@ -105,7 +105,11 @@ def split_and_save(video_arg, annotation_arg, crop_frames = True):
         i = i + 1
 
         # Obtengo el frame en cuestión de la carpeta global del video
-        source_img = Image.open(video_global_frames + '/' + video_name + '_frame-' + vdata[5] + '.jpg').convert("RGB")
+        source_img = None
+        try:
+            source_img = Image.open(video_global_frames + '/' + video_name + '_frame-' + vdata[5] + '.jpg').convert("RGB")
+        except Exception:
+            continue
 
         if (crop_frames):
             # Grabo el frame con el rectángulo cropeado en la carpeta del evento
