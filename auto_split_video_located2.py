@@ -11,6 +11,12 @@ from subprocess import call
 from tqdm import tqdm
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 
+'''
+Extrae los eventos de cada video en forma de frames de acuerdo a las anotaciones realizadas
+Y al área demarcada por la acción (un rectángulo de resolución menor a la del frame)
+Crea carpetas con los nombres de los videos y los frames cropeados dentro
+'''
+
 #_base_path = '/media/grupoavatar/DATOS/VIRAT/VIRAT_Video_Dataset_Release_1.0/Sample_Dataset/'
 #_annotations_path = _base_path + 'annotations/'
 #_video_path = _base_path + 'videos/'

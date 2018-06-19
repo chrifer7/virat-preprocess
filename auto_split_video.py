@@ -8,6 +8,11 @@ import datetime
 import subprocess
 from subprocess import call
 
+'''
+Extrae los eventos de cada video en forma de frames de acuerdo a las anotaciones realizadas
+Crea carpetas con los nombres de los videos y ls frames dentro de los mismos
+'''
+
 #_base_path = '/media/grupoavatar/DATOS/VIRAT/VIRAT_Video_Dataset_Release_1.0/Sample_Dataset/'
 #_annotations_path = _base_path + 'annotations/'
 #_video_path = _base_path + 'videos/'
