@@ -38,7 +38,7 @@ def get_path_and_file(data_arg):
 
   return _path, _file
 
-def split_and_save(video_arg, annotation_arg, crop_frames = True):
+def split_and_save(video_arg, annotation_arg, crop_frames, draw_rectangle):
     # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
 
     video_path, video_file = get_path_and_file(video_arg)
@@ -121,9 +121,10 @@ def split_and_save(video_arg, annotation_arg, crop_frames = True):
             # Grabo el frame con el rectángulo cropeado en la carpeta del evento
             source_img.crop((int(vdata[6]), int(vdata[7]), (int(vdata[6]) + int(vdata[8])),
                             (int(vdata[7]) + int(vdata[9]))))\
-                            .save(video_path_frames + '/' + video_name + '_frame-' + vdata[5] + '.jpg',
-                                  "JPEG")
-        else:
+                            .save(video_path_frames + '/' + video_name + 
+                            '_frame-' + vdata[5] + '.jpg', "JPEG")
+                            
+        elif (draw_rectangle):
             # dibujo un rectágulo alrededor del frame
             draw = ImageDraw.Draw(source_img)
             # draw.rectangle(((int(vdata[8]), int(vdata[9])), (int(vdata[6]), int(vdata[7]))), fill=None)
@@ -137,6 +138,13 @@ def split_and_save(video_arg, annotation_arg, crop_frames = True):
             # Grabo el frame con el rectángulo dibujado en la carpeta del evento
             source_img.save(video_path_frames + '/' + video_name
                             + '_frame-' + vdata[5] + '.jpg', "JPEG")
+                            
+        else:
+            #No cropeo ni dibujo rectágulo, solo guardo el frame completo
+            # Grabo el frame con el rectángulo dibujado en la carpeta del evento
+            source_img.save(video_path_frames + '/' + video_name
+                            + '_frame-' + vdata[5] + '.jpg', "JPEG")
+            
 
         pbar.set_description("Processing frame %d" % i)
         pbar.update(1)
@@ -145,13 +153,21 @@ def split_and_save(video_arg, annotation_arg, crop_frames = True):
 
 
 if __name__ == '__main__':
-    if not len(sys.argv) == 4:
-        print('Arguments must match:\npython code/auto_split_video_located2.py <videos_path> <annotations_path> <crop_frames>')
+    if not len(sys.argv) >= 3:
+        print('Arguments must match:\npython code/auto_split_video_located2.py <videos_path> <annotations_path> OPTIONAL[<crop> <drawrec>]')
         sys.exit(2)
     else:
         video_dir = sys.argv[1]
         annotation_dir = sys.argv[2]
-        crop_frames = sys.argv[3]
+        crop_frames = False
+        draw_rectangle = False
+        
+        for i in range(len(sys.argv)):
+            if (i > 3):
+                if (sys.argv[i].lower() == 'crop'):
+                  crop_frames = True
+                if (sys.argv[i].lower() == 'drawrec'):
+                  draw_rectangle = True                  
 
         pbar = tqdm(total=len(next(os.walk(video_dir))[2]))
 
@@ -160,22 +176,24 @@ if __name__ == '__main__':
             filename_arr = filename.split('.')
             filename_arr = filename_arr[0:len(filename_arr) - 1]
             # filename_arr = filename_arr.append('mp4')
-            print("filename_arr: "+str(filename_arr))
-            # print(filename)
-            video_arg = filename
-            annotation_arr = [filename_arr[0], 'viratdata', 'events', 'txt']
-            # print(annotation_arr)
-            annotation_arg = '.'.join(annotation_arr)
+            
+            if len(filename_arr) > 0:
+              print("filename_arr: "+str(filename_arr))
+              # print(filename)
+              video_arg = filename
+              annotation_arr = [filename_arr[0], 'viratdata', 'events', 'txt']
+              # print(annotation_arr)
+              annotation_arg = '.'.join(annotation_arr)
 
-            video_arg = video_dir + '/' + video_arg
-            annotation_arg = annotation_dir + '/' + annotation_arg
+              video_arg = video_dir + '/' + video_arg
+              annotation_arg = annotation_dir + '/' + annotation_arg
 
-            print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
+              print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
 
-            if (os.path.isfile(video_arg) and os.path.isfile(annotation_arg)):
-                pbar.update(1)
-                split_and_save(video_arg, annotation_arg, crop_frames != None)
+              if (os.path.isfile(video_arg) and os.path.isfile(annotation_arg)):
+                  pbar.update(1)
+                  split_and_save(video_arg, annotation_arg, crop_frames, draw_rectangle)
 
-            # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
+              # print('video_arg: ', video_arg, 'annotation_arg: ', annotation_arg)
 
         pbar.close()

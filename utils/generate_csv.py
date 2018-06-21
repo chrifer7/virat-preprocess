@@ -1,5 +1,18 @@
 """
 ==========================
+Objetivo
+==========================
+Luego de extraer los frames y distribuirlos en las carpetas por accion.
+Generar un archivo CSV con información correspondiente al video, la acción y la ruta.
+
+GROUP CAT VIDEO_NAME     FRAMES PATH
+train	5	6-5-VIRAT_S_000006	168	/home/.../virat_cat_cropped/5/6-5-VIRAT_S_000006
+train	5	22-5-VIRAT_S_000006	61	/home/.../virat_cat_cropped/5/22-5-VIRAT_S_000006
+test	5	11-5-VIRAT_S_000006	70	/home/.../virat_cat_cropped/5/11-5-VIRAT_S_000006
+
+
+
+==========================
 Annotation Files
 ==========================
 
@@ -135,6 +148,6 @@ if __name__ == '__main__':
             #pbar_video_dir_names.close()
         pbar_video_dir.close()
 
-        file_csv = open('virat.csv', 'w')
+        file_csv = open('virat_cropped.csv', 'w')
         file_csv.write("\n".join(list_csv))
         
