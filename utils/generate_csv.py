@@ -148,6 +148,6 @@ if __name__ == '__main__':
             #pbar_video_dir_names.close()
         pbar_video_dir.close()
 
-        file_csv = open('virat_cropped.csv', 'w')
+        file_csv = open('virat_complete.csv', 'w')
         file_csv.write("\n".join(list_csv))
         

@@ -162,13 +162,16 @@ if __name__ == '__main__':
         crop_frames = False
         draw_rectangle = False
         
-        for i in range(len(sys.argv)):
-            if (i > 3):
-                if (sys.argv[i].lower() == 'crop'):
+        for i in range(len(sys.argv)):            
+            if (i >= 3):
+                if (not crop_frames and (sys.argv[i].lower() == 'crop')):
                   crop_frames = True
-                if (sys.argv[i].lower() == 'drawrec'):
+                if (not draw_rectangle and (sys.argv[i].lower() == 'drawrec')):
                   draw_rectangle = True                  
-
+        
+        print('crop_frames: ',crop_frames)
+        print('draw_rectangle: ', draw_rectangle)
+        
         pbar = tqdm(total=len(next(os.walk(video_dir))[2]))
 
         files = []
