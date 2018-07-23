@@ -2,6 +2,10 @@ import cv2
 import numpy as np
 #cap = cv2.VideoCapture("video_opencv_mjpg.avi")
 
+#im = cv2.imread("samples/VIRAT_S_000001_frame-3693.jpg")
+#imgray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
+
+
 cap = cv2.VideoCapture("Megamind.avi")
 
 ret, frame1 = cap.read()
